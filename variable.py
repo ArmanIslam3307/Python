@@ -30,3 +30,29 @@ str_number = str(number)
 print(number, type(number))
 print(float_age, type(float_age))
 print(str_number, type(str_number))
+
+
+
+# assigment-1
+print("Hello World") 
+print('Hello World') 
+print("You're a good man")
+print('''You're a "good" person''')
+
+# Q1: Write a Python program that prints the following text exactly as it appears: 
+
+print("Python is fun.")
+print('''"Quotes" and 'single quotes' can be tricky.''')
+print("\"Quotes\" and 'single quotes' can be tricky.")
+
+print("Python is fun.\n\"Quotes\" and 'single quotes' can be tricky.")
+
+# Q2: For a business create 3 variables to store- name, age, and city. 
+# Then print a sentence that uses these variables.
+name2 = "Anik"
+age2 = 23 
+city = "Madaripur" 
+print("My name is", name, "from", city, "& I'm", age )
+
+print(f"My name is {name} from {city} & I'm {age}")
+
