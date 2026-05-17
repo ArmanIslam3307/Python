@@ -27,10 +27,10 @@
 
 student_name = input("Enter Your Name: ")
 
-bangla = input("Bangla Marks: ")
-english = input("English Marks: ")
-math = input("Math Marks: ")
+bangla = int(input("Bangla Marks: "))
+english = int(input("English Marks: "))
+math = int(input("Math Marks: "))
 
 average = (bangla + english + math) / 3
 
-print(f"{student_name} got {average}%")5
+print(f"{student_name} got {average}%")
